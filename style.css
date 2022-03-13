@@ -1,6 +1,6 @@
 
 header{
-    border-bottom: 3px solid #CFCFCF!important;
+    border-bottom: 1px solid #CFCFCF!important;
 }
 
 footer p{
@@ -118,6 +118,7 @@ footer ul li{
     color:white!important;
     /* height: 100px;  */
     line-height: 50px;
+    border-left: 8px solid #00743D;
 }
 
 .navbar-nav .nav-link{
