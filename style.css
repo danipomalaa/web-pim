@@ -1,0 +1,121 @@
+
+footer p{
+    color:#969595;
+}
+
+.color-primary {
+    color:#29166F;
+}
+
+.color-gray{
+    color:#969595;
+}
+
+#line-business p {
+    font-size: 14px;
+    color:#969595;
+}
+
+#line-business h5{
+    margin-top: 10px;
+    line-height: 19px;
+}
+
+footer ul {
+    list-style-image: url('./Assets/Images/chevron-right.svg');
+}
+footer ul li{
+    border-bottom: 1px solid #E2E1E1;
+    line-height: 35px;
+}
+
+/*------------------------Breadcrump-----------------------*/
+#breadcrump{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E2E1E1;
+    margin-bottom: 20px;
+}
+
+#breadcrump h4{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------About --------------------------*/
+#about{
+    text-align: center;
+}
+
+#about .identitas {
+    padding:20px; background-color: #EDEDED;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about .identitas p{
+    text-align: left;
+    margin:0;
+    font-size: 18px;
+}
+
+/*------------------------Visi-----------------------------*/
+
+#visimisi {
+    color:white;
+}
+#visimisi ul li{
+    font-size: 15px;
+}
+
+#visimisi p{
+    font-size: 18px;
+}
+
+
+
+/*------------------------Content-------------------------*/
+.content{
+    margin-top:66px!important; border-top: 1px solid #CFCFCF;
+}
+
+.content .section{
+    padding:20px;
+    border-bottom:1px solid #CFCFCF;
+}
+
+.navbar{
+    padding:0!important;
+}
+
+.navbar-nav .active{
+    background-color: #29166F;
+    color:white!important;
+    /* height: 100px;  */
+    line-height: 50px;
+}
+
+.navbar-nav .nav-link{
+    line-height: 50px;
+    padding-left:30px!important;
+    padding-right:30px!important;
+}
+
+.nav-link:hover{
+    background-color: #5d41c2;
+    color:white!important;
+    /*opacity: 80%;*/
+}
+
+/*------------------------Site Map-------------------------*/
+#sitemap a{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+
+#sitemap a:hover{
+    background-color: #29166F;
+    color:white;
+    padding-left: 5px;
+}

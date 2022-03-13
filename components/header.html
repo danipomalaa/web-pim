@@ -1,0 +1,61 @@
+<script type="text/javascript">
+  
+  $( document ).ready(function() {
+    var url = window.location.pathname;
+    var page = url.substring(url.lastIndexOf('/') + 1); 
+    //alert(myPageName);
+    //const page = params.get("page");
+    //console.log(pa)
+    if(page ===null || page===""){
+      $('#linkhome').addClass("active")
+    }
+    if(page ==="about-us.html"){
+      $('#linkabout').addClass("active")
+    }
+    if(page ==="business.html"){
+      $('#linkbusiness').addClass("active")
+    }
+    if(page ==="portopolio.html"){
+      $('#linkportopolio').addClass("active")
+    }
+    if(page ==="contact.html"){
+      $('#linkcontact').addClass("active")
+    }
+  });
+</script>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="d-flex">
+            <a class="navbar-brand" href="#">
+            <img src="./Assets/Images/logo.jpg" alt="" width="50" height="50">
+            <span style="font-size: 20px;margin-left:10px; font-weight: bold;" class="color-primary">
+            Panca Intikarya Mandiri</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="d-flex flex-row-reverse">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a id="linkhome" class="nav-link" href=".">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="linkabout" class="nav-link" href="about-us.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="linkbusiness" class="nav-link" href="business.html">Business & Customer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="linkportopolio" class="nav-link" href="portopolio.html">Portopolio & Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="linkcontact" class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </div>
+</nav>

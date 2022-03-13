@@ -1,0 +1,22 @@
+[
+    {
+        "image":"./Assets/Images/business.jpg",
+        "title":"Fire Water System",
+        "description": "Merupakan metode proteksi kebakaran aktif, yang terdiri dari sistem pasokan air, yang memberikan tekanan dan laju aliran yang memadai ke sistem perpipaan distribusi air, di mana sprinkler..."
+    },
+    {
+        "image":"./Assets/Images/business.jpg",
+        "title":"Rotaring Biological Contractor",
+        "description":"Merupakan produk dan sistem terpadu yang lengkap hasil rancang bangun dari PT. PANCA INTIKARYA MANDIRI yang merupakan hasil integrasi dari beberapa produk/sistem pemroses"
+    },
+    {
+        "image":"./Assets/Images/business.jpg",
+        "title":"Bio Catalyst",
+        "description":"Merupakan mikroorganisme probiotik yang menghasilkan enzim untuk membantu proses pengolahan air limbah secara biologis..."
+    },
+    {
+        "image":"./Assets/Images/business.jpg",
+        "title":"Plumbing",
+        "description":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    }
+]

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <title>Panca Intikarya Mandiri</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            loadHeader();
+            loadFooter();
+            loadLineBusiness();
+        });
+
+        function loadHeader(){
+            $.get("./components/header.html", function (data) {
+                $("header").append(data);
+            });
+        }
+        function loadFooter(){
+            $.get("./components/footer.html", function (data) {
+                $("footer").append(data);
+            });
+        }
+
+        function loadLineBusiness(){
+            $.get("./data/line-business.json", function (data) {
+                console.log('linebusiness', data)
+                var datahtml = data.map(item=>{
+                    var _html = `<div class="col-3">
+                        <div style="width:100%; height: 200px;background-color: aliceblue;overflow:hidden">
+                            <img src=${item.image} style="width: 100%;"/>
+                        </div>
+                        <h5>${item.title}</h5>
+                        <p>
+                            ${item.description}
+                        </p>
+                    </div>`
+                    return _html})   
+                $("#line-business").append(datahtml)
+            });
+        }
+    </script>
+  </head>
+  <body>
+      <header id="header" class="fixed-top">
+      </header>
+      <div class="content" >
+        <div  class="container" >
+            <div id="breadcrump">
+                <h4>About Us</h4>
+                <span>Home / About Us</span>
+            </div>
+            <div class="section" id="about">
+                <h2>Tentang Perusahaan</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./Assets/Images/logo-big.jpg" class="img-fluid" />
+                        <div class="identitas">
+                            <p style="font-weight: bold;font-size: 20px;">IDENTITAS PERUSAHAAN</p>
+                            <p>NAMA PERUSAHAAN	: PT PANCA INTIKARYA MANDIRI </p>
+                            <p>AKTA NOTARIS	: NOMOR 33 TAHUN 2021 </p>
+                            <p>NPWP	: 02.726.809.3-432.000</p>
+                        </div>
+                    </div>
+                    <div class="col-6 align-middle">
+                        <h2>Sejarah Perusahaan</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="visimisi">
+                <div class="row">
+                    <div class="col-6" style="padding:30px; background-color: #00743D;">
+                        <h3>Visi</h3>
+                        <p>
+                            Menjadi perusahaan yang handal dan memiliki kemampuan bersaing yang tinggi dengan kepuasan dan kepercayaan pelanggan yang berorientasi.
+                        </p>
+                    </div>
+                    <div class="col-6" style="padding:30px; background-color: #29166F;">
+                        <h3>Misi</h3>
+                        <p>
+                            Menyediakan jasa konstruksi melalui seluruh potensi
+                            optimasi berdasarkan tanggung jawab profesionalisme dan
+                            kepuasan klien. Untuk pencapaian visi dan misi perusahaan, PT. PancaIntikarya Mandiri memiliki nilai perusahaan sebagai berikut :
+                        </p>
+                        <ul>
+                            <li>Jadilah mitra dan konsultan terbaik bagi pelanggan kami</li>
+                            <li>Orientasi kepuasan pelanggan</li>
+                            <li>Profesionalisme</li>
+                            <li>Memberikan keunggulan operasional kepada pelanggan kami</li>
+                            <li>Integritas tinggi</li>
+                            <li>Mendidik pasar dengan semangat untuk membantu mereka tumbuh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="nilai">
+                <h2 style="text-align:center">Nilai Perusahaan</h2>
+            </div>
+            <div class="section">
+                <h2 style="text-align:center">Lini Bisnis</h2>
+                <p class="color-gray" style="text-align:center; padding-left: 200px;padding-right: 200px;">Panca Intikarya Mandiri berkomitmen untuk menjadi perusahaan yang mampu memberi manfaat bagi seluruh pelanggan 
+                    dengan terus-menerus meningkatkan nilai perusahaan sebagai tujuan utama dari se-luruh aspek usahanya. 
+                    Peningkatan nilai perusahaan tidak hanya melalui strategi bisnis dan perhi-tungan aspek finansial, 
+                    tetapi juga mempertimbangkan secara menyeluruh setiap kegiatan usaha dan kebijakan yang dibuat. 
+                    Untuk mencapai hal tersebut di atas, Panca Intikarya Mandiri melakukan kegiatan usaha sebagai berikut</p>
+                <div class="row" style="margin-top:20px" id="line-business">
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer style="background-color: #EDEDED; padding-top:40px;padding-bottom: 40px;">
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    
+</body>
+</html>

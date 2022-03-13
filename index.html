@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="./Assets/Images/logo.jpg" />
+    <title>Panca Intikarya Mandiri</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            loadHeader();
+            loadFooter();
+            loadLineBusiness();
+        });
+
+        function loadHeader(){
+            $.get("./components/header.html?page=home", function (data) {
+                $("header").append(data);
+            });
+        }
+        function loadFooter(){
+            $.get("./components/footer.html", function (data) {
+                $("footer").append(data);
+            });
+        }
+
+        function loadLineBusiness(){
+            $.get("./data/line-business.json", function (data) {
+                console.log('linebusiness', data)
+                var datahtml = data.map(item=>{
+                    var _html = `<div class="col-3">
+                        <div style="width:100%; height: 200px;background-color: aliceblue;overflow:hidden">
+                            <img src=${item.image} style="width: 100%;"/>
+                        </div>
+                        <h5>${item.title}</h5>
+                        <p>
+                            ${item.description}
+                        </p>
+                    </div>`
+                    return _html})   
+                $("#line-business").append(datahtml)
+            });
+        }
+        
+    </script>
+  </head>
+  <body>
+      <header id="header" class="fixed-top">
+        
+      </header>
+      <div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets/Images/background.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/Images/background.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/Images/background.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div style="display: flex;">
+            <div style="width: 30%; background-color:#00743D;height: 30px;"></div>
+            <div style="width: 70%;background-color:#29166F;height: 30px;"></div>
+        </div>
+        <div style="background-color: #E5E5E5;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div style="margin-top:30px; margin-bottom:30px">
+                            <h3 style="font-size:24px" class="color-primary">Welcome to PT. Panca Intikarya Mandiri</h3>
+                            <p style="font-size: 14px;" class="color-gray">
+                                PT Panca Intikarya Mandiri adalah Perusahaan jasa konstruksi yang bergerak dibidang Mechanical, Electrical, Plumbing & Fire Watersystem. 
+                                Dengan didukung oleh tenaga ahli yang berpengalaman, 
+                                perusahaan kami terus berusaha meningkatkan kualitas untuk memenuhi kebutuhan industri sesuai permintaan dan perkembangan teknologi industri saat ini
+                            </p>
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width:80px;height:80px;background-color: blanchedalmond;margin-right: 10px;"></div>
+                                <div style="width:80px;height:80px;background-color: blanchedalmond;margin-right: 10px;"></div>
+                                <div style="width:80px;height:80px;background-color: blanchedalmond;margin-right: 10px;"></div>
+                                <div style="width:80px;height:80px;background-color: blanchedalmond;margin-right: 10px;"></div>
+                            </div>
+                            <button type="button" class="btn btn-success">Lihat Portopolio</button>
+                        </div>               
+                    </div>
+                    <div class="col-6">
+                        <img src="./Assets/Images/welcome.jpg" class="img-fluid" style="margin-top: 20px;"/>
+                    </div>
+                </div>        
+            </div>
+        </div>
+        <div  class="container" style="margin-top:20px" >
+            <div id="line-business" class="row">
+            </div>
+        </div>
+      </div>
+      <footer style="background-color: #EDEDED; padding-top:40px;padding-bottom: 40px;">
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    
+</body>
+</html>
