@@ -42,6 +42,11 @@ footer ul li{
     padding: 0;
 }
 
+/*-------------------------Section --------------------------*/
+.section .description{
+    text-align:center; padding-left: 200px;padding-right: 200px;
+}
+
 /*-------------------------About --------------------------*/
 #about{
     text-align: center;
@@ -84,6 +89,22 @@ footer ul li{
     border-bottom:1px solid #CFCFCF;
 }
 
+/*-----------------------Content-------------------------*/
+@media only screen and (max-width: 600px) {
+    .content {
+      margin-top: 60px!important;
+    }
+}
+
+/*-----------------------Navbar-------------------------*/
+
+
+@media only screen and (max-width: 600px) {
+    .full-width {
+      width:100%!important;
+    }
+}
+
 .navbar{
     padding:0!important;
 }
@@ -99,6 +120,7 @@ footer ul li{
     line-height: 50px;
     padding-left:30px!important;
     padding-right:30px!important;
+    /*width: 100%!important;*/
 }
 
 .nav-link:hover{
