@@ -34,14 +34,18 @@ footer ul li{
 }
 
 /*------------------------Breadcrump-----------------------*/
-#breadcrump{
+#breadcrumb{
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #E2E1E1;
     margin-bottom: 20px;
+    background-image: url('./Assets/Images/breadcrumb.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
 }
 
-#breadcrump h4{
+#breadcrumb h4{
     margin: 0;
     padding: 0;
 }
