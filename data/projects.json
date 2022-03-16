@@ -1,0 +1,50 @@
+[
+    {
+        "image":"./Assets/Images/projects/Rectangle11628.jpg",
+        "name":"STP Pertamina-Talisman Jambi Merang",
+        "sow":"Fire Water System",
+        "project": "Merupakan metode proteksi kebakaran aktif, yang terdiri dari sistem pasokan air, yang memberikan tekanan dan laju aliran yang memadai ke sistem perpipaan distribusi air, di mana sprinkler..."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11628(1).jpg",
+        "name":"IPAL BBPTKLPP Bambu Apus Jakarta",
+        "sow":"Rotaring Biological Contractor",
+        "project":"Merupakan produk dan sistem terpadu yang lengkap hasil rancang bangun dari PT. PANCA INTIKARYA MANDIRI yang merupakan hasil integrasi dari beberapa produk/sistem pemroses"
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11628(2).jpg",
+        "name":"WWTP PT. VEOLIA WATER TECHNOLOGI",
+        "sow":"Bio Catalyst",
+        "project":"Merupakan mikroorganisme probiotik yang menghasilkan enzim untuk membantu proses pengolahan air limbah secara biologis..."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11629.jpg",
+        "name":"STP BELLE FLOUR",
+        "sow":"Plumbing",
+        "project":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11630.jpg",
+        "name":"WWTP PT RAFLESIA RPH GARUT",
+        "sow":"Plumbing",
+        "project":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11631.jpg",
+        "name":"RO PERTAMINA ASSET 5 SANGATTA",
+        "sow":"Plumbing",
+        "project":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11632.jpg",
+        "name":"WTP PDAM BEKASI",
+        "sow":"Plumbing",
+        "project":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    },
+    {
+        "image":"./Assets/Images/projects/Rectangle11633.jpg",
+        "name":"PT. Ciputra Residance, Ciefest Bok MCD. Tangerang",
+        "sow":"Plumbing",
+        "project":"Merupakan suatu sistem pengelolaan air pada bangunan yang mengatur tentang pemasangan pipa, tangki, dan peralatan lainnya."
+    }
+]

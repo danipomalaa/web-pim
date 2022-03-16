@@ -15,7 +15,7 @@
             console.log( "ready!" );
             loadHeader();
             loadFooter();
-            loadLinePortopolio();
+            loadLineProjects();
         });
 
         function loadHeader(){
@@ -29,16 +29,16 @@
             });
         }
 
-        function loadLinePortopolio(){
-            $.get("./data/line-business.json", function (data) {
+        function loadLineProjects(){
+            $.get("./data/projects.json", function (data) {
                 console.log('linebusiness', data)
                 var datahtml = data.map(item=>{
                     var _html = `<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div style="width:100%; height: 200px;background-color: aliceblue;overflow:hidden">
                             <img src=${item.image} style="width: 100%;"/>
                         </div>
-                        <h5>${item.title}</h5>
-                        <p >SoW : <span style="font-weight:bold;">................</span> </p>
+                        <h5>${item.name}</h5>
+                        <p >Description : <span style="font-size:13px;">${item.project}</span> </p>
                     </div>`
                     return _html})   
                 $("#portopolio").append(datahtml)
