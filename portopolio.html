@@ -16,6 +16,7 @@
             loadHeader();
             loadFooter();
             loadLineProjects();
+            loadLineProjectList('Property dan Mall');
         });
 
         function loadHeader(){
@@ -44,6 +45,47 @@
                 $("#portopolio").append(datahtml)
             });
         }
+
+        function loadLineProjectList(kategori){
+            $("#data-project tr").remove()
+            if(kategori === "Property dan Mall"){
+                $("#group1").css("background-color", "gray")
+                $("#group2").css("background-color", "#CFCFCF")
+                $("#group3").css("background-color", "#CFCFCF")
+                $("#group4").css("background-color", "#CFCFCF")                
+            }
+            if(kategori === "Industri"){
+                $("#group1").css("background-color", "#CFCFCF")
+                $("#group2").css("background-color", "gray")
+                $("#group3").css("background-color", "#CFCFCF")
+                $("#group4").css("background-color", "#CFCFCF")                
+            }
+            if(kategori === "Oil dan Gas"){
+                $("#group1").css("background-color", "#CFCFCF")
+                $("#group2").css("background-color", "#CFCFCF")
+                $("#group3").css("background-color", "gray")
+                $("#group4").css("background-color", "#CFCFCF")                
+            }
+            if(kategori === "Goverment"){
+                $("#group1").css("background-color", "#CFCFCF")
+                $("#group2").css("background-color", "#CFCFCF")
+                $("#group3").css("background-color", "#CFCFCF")
+                $("#group4").css("background-color", "gray")                
+            }
+            $.get("./data/project-list.json", function (data) {
+                var datahtml = data.list.filter(x=>x.kategori === kategori).map((item,index)=>{
+                    var _html = `
+                        <tr>
+                            <td style="vertical-align:middle">${index+1}</td>
+                            <td style="vertical-align:middle">${item.pekerjaan}</td>
+                            <td style="vertical-align:middle">${item.lokasi}</td>
+                            <td style="vertical-align:middle">${item.tahun}</td>
+                        </tr>
+                    `
+                    return _html})   
+                $("#data-project").append(datahtml)
+            });
+        }
     </script>
   </head>
   <body>
@@ -58,7 +100,7 @@
         </div>
         <div  class="container" >
             <div class="section">
-                <h2 style="text-align:center">Portopolio & Project</h2>
+                <h2 style="text-align:center">Portopolio</h2>
                 <p class="color-gray description d-none d-lg-block d-md-block">Panca Intikarya Mandiri berkomitmen untuk menjadi perusahaan yang mampu memberi manfaat bagi seluruh pelanggan 
                     dengan terus-menerus meningkatkan nilai perusahaan sebagai tujuan utama dari se-luruh aspek usahanya. 
                     Peningkatan nilai perusahaan tidak hanya melalui strategi bisnis dan perhi-tungan aspek finansial, 
@@ -71,6 +113,30 @@
                     tetapi juga mempertimbangkan secara menyeluruh setiap kegiatan usaha dan kebijakan yang dibuat. 
                     Untuk mencapai hal tersebut di atas, Panca Intikarya Mandiri melakukan kegiatan usaha sebagai berikut</p>
                 <div class="row" style="margin-top:20px" id="portopolio">
+                </div>
+            </div>
+            <div class="section">
+                <h2 style="text-align:center">Project</h2>
+                <div class="btn-group" role="group">
+                    <button type="button" id="group1" class="btn btn-primary" onclick="loadLineProjectList('Property dan Mall')">Property & Mall</button>
+                    <button type="button" id="group2" class="btn btn-secondary" onclick="loadLineProjectList('Industri')">Industri</button>
+                    <button type="button" id="group3" class="btn btn-secondary" onclick="loadLineProjectList('Oil dan Gas')">Oil & Gas</button>
+                    <button type="button" id="group4" class="btn btn-secondary" onclick="loadLineProjectList('Goverment')">Goverment</button>
+                </div>
+             
+                <div class="row" style="margin-top:20px" id="project">
+                    <table class="table">
+                        <thead class="table-light">
+                            <tr>
+                                <td style="width:10px">No</td>
+                                <td>Pekerjaan</td>
+                                <td style="width:40%">Lokasi</td>
+                                <td style="width:5%">Tahun</td>
+                            </tr>
+                        </thead>
+                        <tbody id="data-project">
+                        </tbody>
+                      </table>
                 </div>
             </div>
         </div>

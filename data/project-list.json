@@ -1,0 +1,443 @@
+{
+    "list":[
+        {
+            "pekerjaan":"Perbaikan STP Gedung Menara Citicon",
+            "lokasi":"Jakarta",
+            "pemberi_tugas":"PT. Sugih Berkat",
+            "tahun":"2016",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Jaringan Pipa SUMP PIT ke The Peak",
+            "lokasi":"Cluster The Peak/Sektor:1.1 TPK01/Perumahan CitraGarden City Malang",
+            "pemberi_tugas":"Citra Garden City Malang JO",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Jaringan Pipa SUMP PIT ke Park Hill",
+            "lokasi":"Cluster The Peak/Sektor:1.1 TPK01/Perumahan CitraGarden City Malang",
+            "pemberi_tugas":"Citra Garden City Malang JO",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Jaringan Pipa SUMP PIT ke Green Hill",
+            "lokasi":"Cluster The Peak/Sektor:1.1 TPK01/Perumahan CitraGarden City Malang",
+            "pemberi_tugas":"Citra Garden City Malang JO",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pipa Crosing Jalan",
+            "lokasi":"Cluster The Peak/Sektor:1.1 TPK01/Perumahan CitraGarden City Malang",
+            "pemberi_tugas":"Citra Garden City Malang JO",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Shaff RBC Kap. 70 M3/Day",
+            "lokasi":"W Resot Bali ",
+            "pemberi_tugas":"PT. Dua Cahaya Anugrah",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Service Penggantian Part STP",
+            "lokasi":"Tangerang",
+            "pemberi_tugas":"PT. Ciputra Residence ",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pemasangan Pompa Sump Pit",
+            "lokasi":"Fresco Tangerang ",
+            "pemberi_tugas":"PT. Ciputra Residence ",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Instalasi Canopy dan Step Handail ",
+            "lokasi":"Area Rntri - Exit North Temporary parking Aen Mall BSD CITY",
+            "pemberi_tugas":"PT. AMSL Indonesia",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pekerjaan Pembuatan Jalur Pipa STP",
+            "lokasi":"Ciffest Blok MCD Tangerang ",
+            "pemberi_tugas":"PT. Ciputra Residence ",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pekerjaan Bangunan STP Cluster Park Hill ",
+            "lokasi":"Cluster Park Hill City Malang ",
+            "pemberi_tugas":"PT. Citra Garden City Malang JO ",
+            "tahun":"2017",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pengadaan dan Pemasangan Sproket RBC Kap 120 Mpd",
+            "lokasi":"Bali",
+            "pemberi_tugas":"W Resot Bali",
+            "tahun":"2018",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":" Pengecatan Pagar Panel dan Kawat Duri",
+            "lokasi":"Cluster The Peak/Sektor:1.1 TPK01/Perumahan CitraGarden City Malang ",
+            "pemberi_tugas":"Citra Garden City Malang JO",
+            "tahun":"2018",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pengdaan dan Pemasangan Part RBC di STP RS Qim Batang",
+            "lokasi":"Batang",
+            "pemberi_tugas":"RS Qim Batang",
+            "tahun":"2018",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":" Penggantian Bearing RBC STP",
+            "lokasi":"Bali",
+            "pemberi_tugas":"W Resot Bali",
+            "tahun":"2018",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Jaringan Pipa STP (dari tenant ke mainline)",
+            "lokasi":"Food Festival Cikupa Tangerang",
+            "pemberi_tugas":"PT. Ciputra Residence ",
+            "tahun":"2018",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pembuatan Sistem Sewage Treatment Plan Kapasitas 100 M3/Hari",
+            "lokasi":"Ecohome/Sektor.3.3/Perumahan CitraRaya Cikupa Tangerang",
+            "pemberi_tugas":"PT. Citra Ecopolis Raya",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pembuatan Sistem Sewage Treatment Plan Kapasitas 200 M3/Hari",
+            "lokasi":"Ecoresidence/Sektor.3.3/Perumahan CitraRaya, Cikupa Tangerang",
+            "pemberi_tugas":"PT. Citra Ecopolis Raya",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pengadaan Carbon Aktif 8 x16 dan Pasir Silika 14 x 20 @ 45 Ton",
+            "lokasi":"WTP 2 Dan Serdang Asri Tangerang",
+            "pemberi_tugas":"PT. Ciputra Residence",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pembuatan Sistem Sewage Treatment Plan Kapasitas 200 M3/Hari",
+            "lokasi":"Ecoresidence/Sektor.3.3/Perumahan CitraRaya, Cikupa Tangerang",
+            "pemberi_tugas":"PT. Citra Ecopolis Raya",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Perbaikan STP POP Hotel Airport",
+            "lokasi":"Cingkareng",
+            "pemberi_tugas":"POP Hotel Airport",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Perbaikan STP Hotel Amaris Cikupa ",
+            "lokasi":"Cikupa Tangerang",
+            "pemberi_tugas":"Amaris Hotel Citraraya Tangerang",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Perjanjian Kerjasama Jasa Pemeliharaan Sewage Treatmen Plant (STP) Perumahan CitraRaya Cikupa Tangerang",
+            "lokasi":"Cikupa Tangerang",
+            "pemberi_tugas":"PT. Ciputra Residence ",
+            "tahun":"2019",
+            "kategori":"Property dan Mall"
+        },
+        {
+            "pekerjaan":"Pembangunan IPAL Limbah Jean's Di Kabupaten Pekalongan",
+            "lokasi":"Pekalongan",
+            "pemberi_tugas":"Mustakim",
+            "tahun":"2020",
+            "kategori":"Property dan Mall"
+        },
+        
+        {
+            "pekerjaan":"Perbaikan Lampu PJU Area GBB",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Penambahan Tanggulan Dak Area Galery",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Lantai DC 1 & DC 2",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan & Rekronsruksi Aspal Area Umum, GBB dan Good Day",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Pipa Air Bersih Jalur Main Gate",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Rumah Pompa CNG",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Pipa Hydrat Area POS Kerani DC",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pekerjaan Tambahan Perbaikan Pipa Hydrant Area POS Kerani DC",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2016",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Modifikasi Ruangan / Lay Out Ruang Arsip Produksi R&G",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abad",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pembuatan Partisi Akses Tangga Dari LT.5 ke LT.6 Prod Gudang ",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"MTC Building Kawasan Surya Cipta Krawang",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pembuatan Pembatas Jalan Keluar Masuk Motor Karyawan",
+            "lokasi":"MTC Building Kawasan Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Dinding Sudut Lantai Lift&Barrier Lantai Area Depan Lift 2 Prod R&G",
+            "lokasi":"MTC Building Kawasan Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pembuatan Partisi di Ruang R & G ",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang ",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Tembok",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang ",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pekerjaan Rehabilitasi Scada di 3 GI Kemang, Mampang, Senayan",
+            "lokasi":"Kemang, Mampang, Senayan",
+            "pemberi_tugas":"PT. Sekar Cahaya Elektrik",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pekerjaan Perbaikan Tembok LT. 4",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang ",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Penggantian Media Filter & Adhoc Services",
+            "lokasi":"VWT Indonesia - Solutions",
+            "pemberi_tugas":"PT. Veolia Water Solution Indonesia ",
+            "tahun":"2017",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pembuatan Sistem Pengolahan Air Limbah Central Kitchen ",
+            "lokasi":"Gudang Tangerang",
+            "pemberi_tugas":"PT. Adicipta Boga Intiprima ",
+            "tahun":"2018",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Supply Media Grevel ",
+            "lokasi":"Loreal Cikarang ",
+            "pemberi_tugas":"PT. Veolia Water Solution Indonesia",
+            "tahun":"2018",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Perbaikan Lantai Beton (Re-Screeding)",
+            "lokasi":"Kawasan Industri Surya Cipta Krawang",
+            "pemberi_tugas":"PT. Santos Jaya Abadi",
+            "tahun":"2018",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Supply Media Grevel ",
+            "lokasi":"Loreal Cikarang",
+            "pemberi_tugas":"PT. Veolia Water Solution Indonesia",
+            "tahun":"2019",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pembuatan Sumur Resapan",
+            "lokasi":"MM 2100",
+            "pemberi_tugas":"CV. Birutama Envitect",
+            "tahun":"2019",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Jasa Instalasi (Instalasi Mecanical & Electrical)",
+            "lokasi":"Site RPH Garut",
+            "pemberi_tugas":"PT. Mimeontec Indonesia",
+            "tahun":"2019",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Supply Biocatalyct & Kaporit",
+            "lokasi":"Gudang Tangerang",
+            "pemberi_tugas":"PT. Adicipta Boga Intiprima ",
+            "tahun":"2019",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Instalation Mecanical Electricel APS Subang",
+            "lokasi":"APS Subang ",
+            "pemberi_tugas":"PT. Mimeontec Indonesia",
+            "tahun":"2019",
+            "kategori":"Industri"
+        },
+        {
+            "pekerjaan":"Pengadaan Pompa Maxon Centrifugal End Suction ",
+            "lokasi":"Jakarta",
+            "pemberi_tugas":"PT. Don Udang Aquaculture",
+            "tahun":"2020",
+            "kategori":"Industri"
+        }
+
+        ,
+        {
+            "pekerjaan":"Filter For Water Injection ",
+            "lokasi":"Tanjung Tiga Sumsel",
+            "pemberi_tugas":"Pertamina EP-Enerhi Tanjung Tiga",
+            "tahun":"2018",
+            "kategori":"Oil dan Gas"
+        },
+        {
+            "pekerjaan":"Supply Material Elecrical ",
+            "lokasi":"Medan",
+            "pemberi_tugas":"PT. PGAS Solution",
+            "tahun":"2019",
+            "kategori":"Oil dan Gas"
+        },
+        {
+            "pekerjaan":"Pengadaan Reverse Osmosis Package Untuk Feed Water Boiler Main Gathering Station Field Sangatta ",
+            "lokasi":"Sangatta Pertamina EP",
+            "pemberi_tugas":"PT. Lumen Kurnia Abadi",
+            "tahun":"2020",
+            "kategori":"Oil dan Gas"
+        }
+
+        ,
+        {
+            "pekerjaan":"Pekerjaan Pembuatan Pagar ",
+            "lokasi":"Jakarta",
+            "pemberi_tugas":"Satuan Kerja Sekertariat Direktorat Jenderal Cipta Karya Kegiatan  Infrastruktur Tanggap  Darurat/Kebetuhan Mendesak",
+            "tahun":"2014",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pengadaan Panel Automatic Transfer Switch (ATS)",
+            "lokasi":"PDAM Tirta Patriot, Kel. Magamulya. Kec Bekasi Utara",
+            "pemberi_tugas":"Perusahaan Daerah Air Minum Tirta Patriot Kota Bekasi ",
+            "tahun":"2018",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pek. Pembangunan IPAL Domestik Komunal Di Kab Cirebon",
+            "lokasi":"Pondok Pesantren Madinatunnajah Kota Cirebon",
+            "pemberi_tugas":"Pejabat Pembuat KomitmenSatuan Kerja Direktorat Pengendalian Pencemaran Air Kementrian Lingkungan Hidup dan Kehutanan",
+            "tahun":"2018",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pekerjaan Pembangunan Instalasi Pengolahan Air Limbah (IPAL) Domestik Komunal Di Kabupaten Sleman, Provinsi DI Yogyakarta Tahun Anggaran 2018",
+            "lokasi":"Yogyakarta",
+            "pemberi_tugas":"Pejabat Pembuat KomitmenSatuan Kerja Direktorat Pengendalian Pencemaran Air Kementrian Lingkungan Hidup dan Kehutanan",
+            "tahun":"2018",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pekerjaan Pembangunan Instalasi Pengolahan Air Limbah (IPAL) Limbah Jeans di Kabupaten Pekalongan Tahun 2018",
+            "lokasi":"Pekalongan",
+            "pemberi_tugas":"Pejabat Pembuat KomitmenSatuan Kerja Direktorat Pengendalian Pencemaran Air Kementrian Lingkungan Hidup dan Kehutanan ",
+            "tahun":"2018",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pekerjaan Pembangunan IPAL Domestik di Desa Kendisan, Kabupaten Bangli, Propinsi Bali",
+            "lokasi":"Bali",
+            "pemberi_tugas":"Pejabat Pembuat KomitmenSatuan Kerja Direktorat Pengendalian Pencemaran Air Kementrian Lingkungan Hidup dan Kehutanan ",
+            "tahun":"2018",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pemeliharaan Instalasi Pengolahan Air Kotor/Limbah (IPAK/IPAL) RSKD Duren Sawit RSKD  Duren sawit",
+            "lokasi":"Rumah Sakit Khusus Daerah Duren Sawit Jakarta Timur",
+            "pemberi_tugas":"Pemerintah Provinsi Daerah Khusus IbuKota Jakarta",
+            "tahun":"2019",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"IPAL Domestik Komunal dan MCK di Kota Bogor",
+            "lokasi":"Bogor",
+            "pemberi_tugas":"Pejabat Pembuat KomitmenSatuan Kerja Direktorat Pengendalian Pencemaran Air Kementrian Lingkungan Hidup dan Kehutanan",
+            "tahun":"2019",
+            "kategori":"Goverment"
+        },
+        {
+            "pekerjaan":"Pengadaan Pompa Sumpit 3,7 Kw / 5 HP dan Panel Inventer",
+            "lokasi":"Kota Bekasi",
+            "pemberi_tugas":"Perusahaan Daerah Air Minum Tirta Patriot Kota Bekasi",
+            "tahun":"2019",
+            "kategori":"Goverment"
+        }
+    ]
+}
